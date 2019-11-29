@@ -9,6 +9,6 @@ setup(name='advancedpwn',
       license='MIT',
       packages=['advancedpwn'],
       install_requires=[
-          'pwntools',
+          'pwntools @ git+https://github.com/Gallopsled/pwntools.git@beta',
       ],
       zip_safe=False)
