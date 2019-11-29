@@ -12,7 +12,7 @@ Currently includes:
     * `strace.attach()`: similar to `gdb.attach` allows you to attach strace to a running process in a new terminal window
 * `std` module: provides standard functions present in every pwntools script, such as `start`. This should help declutter your exploit script. It also automatically handles using SSH to run stuff. e.g. you can run your exploit script on your main os and using ssh pwntools will do everything in the VM.
 
-## Installation
+## Installation
 
 Probably can install using:
 ```bash
