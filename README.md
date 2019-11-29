@@ -78,3 +78,5 @@ Then you can use the ida module. If you are using `std` module as well, it shoul
 ```bash
 python3 exploit.py LOCAL IDA
 ```
+
+**Note:** For this to work, you must have the correct debug_server running on the system where the script is executing the binary (e.g. if via SSH, then on the VM). Also you must have configured the IDA instance that has your binary open to be able to connect to that server (e.g. selected Linux Server, configured host and port correctly).
